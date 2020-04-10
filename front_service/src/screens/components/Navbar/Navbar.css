@@ -1,0 +1,85 @@
+.navbar {
+  background-color: #27797c;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signing-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3vw;
+}
+
+.home-wrapper {
+  height: 100%;
+  display: flex;
+  margin-left: 10vw;
+}
+
+.signing-wrapper li,
+.home-wrapper li {
+  margin: auto 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.signing-wrapper li {
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 5px;
+
+  opacity: 0.8;
+}
+
+.signing-wrapper a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.home-wrapper a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.signing-wrapper li:hover {
+  opacity: 1;
+}
+
+.home-wrapper li:hover {
+  opacity: 0.8;
+}
+
+.logout-button {
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 5px;
+  margin: auto;
+  margin-right: 3vw;
+  height: auto;
+  width: auto;
+
+  background-color: #27797c;
+  color: white;
+  font-size: 20px;
+
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+.logout-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
