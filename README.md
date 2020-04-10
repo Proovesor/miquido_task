@@ -1,4 +1,3 @@
-# miquido_task
 ## Installation and Starting
 
 In order for app to work, it is necessary to have Node.js installed on your machine. You can learn how to do that by visiting  **[Node.js site](https://nodejs.org/en/)**.
