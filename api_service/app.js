@@ -13,7 +13,7 @@ import authMiddleware from "./src/middleware/isAuth";
 import { User } from "./src/api/user.controller";
 
 const app = express();
-const DB_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0-jrq9y.mongodb.net/miquido_task?retryWrites=true&w=majority`;
+const DB_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0-jrq9y.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 const PORT = process.env.PORT || 8080;
 
 app.use(bodyParser.json());
