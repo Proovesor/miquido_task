@@ -27,3 +27,7 @@ Once the app is up and running, you can visit the home page at: **http://localho
 - user have the possibility to create his own account
 - each user is allowed to search for movies by movie title. The service provides information such as title, year of production, genre or average score for the movie
 - logged users are able to rate the movies and mark/unmark them as their favorite ones
+
+### MongoDB Atlas account
+
+It's necessary to have **[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)** account and own a cluster alongside with database. You gotta fill in environment variables with your db credentials as well as jwt secret - DB_USER, DB_PASSWORD and TOKEN_SECRET, defining them inside of the .env file in your api_service folder.
